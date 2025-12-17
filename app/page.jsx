@@ -1,5 +1,3 @@
-import DonationBox from "./components/DonationBox";
-
 export default function Home() {
   return (
     <div className="main-container">
@@ -26,10 +24,6 @@ export default function Home() {
         <a className="language-item"><span>Português</span><small>1,156,000+ artigos</small></a>
       </section>
 
-      <section className="language-grid">
-        {/* idiomas */}
-      </section>
-
       <section className="search-section">
         <form className="search-form">
           <input type="search" placeholder="Buscar na Wikipédia" />
@@ -37,48 +31,10 @@ export default function Home() {
         </form>
       </section>
 
-      <div className="content-grid">
-
-        <main className="projects-section">
-          <div className="project-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg" />
-            <div>
-              <h4>Commons</h4>
-              <p>Fotos e mídias livres</p>
-            </div>
-          </div>
-
-          <div className="project-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg" />
-            <div>
-              <h4>Wikcionário</h4>
-              <p>Dicionário livre</p>
-            </div>
-          </div>
-            <div className="project-item">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/865px-Wikiquote-logo.svg.png" alt="Wikiquote Logo"/>
-              <div>
-                  <h4>Wikiquote</h4>
-                  <p>Coleção de citações</p>
-              </div>
-            </div>
-            <div className="project-item">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/2048px-Wikibooks-logo.svg.png" alt="Wikibooks Logo"/>
-              <div>
-                  <h4>Wikilivros</h4>
-                  <p>Livros e manuais livres</p>
-              </div>
-            </div>
-        </main>
-
-        <DonationBox />
-
-      </div>
-
       <footer className="bottom-banner">
         <p>
           <strong>A internet que nos foi prometida.</strong> Após quase 25 anos,
-          a Wikipédia ainda é a mesma internet que nos foi prometida – um lugar para aprendizado e compartilhamento de conhecimento.
+          a Wikipédia ainda é a mesma internet que nos foi prometida.
         </p>
       </footer>
 
